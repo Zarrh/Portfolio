@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #11071f;
+  --color-primary: #7127ba;
+  --color-card: #130428;
+
+  --color-footer: #1a0b2e;
+  --color-header: #1a0b2e;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("/fonts/Poppins/Poppins-Black.ttf");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+:root {
+  --color-bg: #11071f;
+  --color-primary: #7127ba;
+  --color-card: #130428;
+
+  --color-footer: #1a0b2e;
+  --color-header: #1a0b2e;
+
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: --color-bg;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth;
+}
+
+#root {
+  background-color: var(--color-bg);
+}
