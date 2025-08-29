@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "../components/Button";
 import Gradient from "../components/Gradient";
 import { heroLinks, type IconLink } from "../constants";

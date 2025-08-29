@@ -9,6 +9,7 @@ export default defineConfig({
     tailwindcss(),
     svgr(),
   ],
+  base: '/Portfolio/',
   server: {
     port: 8000,
   }

@@ -1,8 +1,8 @@
-import type { Language, IconLink } from "../constants";
+import type { Language } from "../constants";
 import GradientBorder from "./GradientBorder";
 import LoadingBar from "./LoadingBar";
 
-const LanguageCard: React.FC<Language> = ({ name, icon, level, levelEvaluation, text }) => {
+const LanguageCard: React.FC<Language> = ({ name, icon, levelEvaluation, text }) => {
 
   const Icon = icon;
 
